@@ -1,5 +1,5 @@
 CMakeFiles/SimUduck.dir/QuackBehaviorInterface/Quack.c.o: \
- /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/Quack.c \
+ /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/Quack.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,5 +23,5 @@ CMakeFiles/SimUduck.dir/QuackBehaviorInterface/Quack.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/Quack.h \
- /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/QuackBehavior.h
+ /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/Quack.h \
+ /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/QuackBehavior.h

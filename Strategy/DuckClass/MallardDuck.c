@@ -13,14 +13,14 @@ static void display(Duck *self) {
 }
 
 void initMallardDuck(MallardDuck *self) {
-    Duck *this = (Duck *)self;
-    __initDuck(this, swim, display);
+    Duck *super = &self->super;
+    __initDuck(super, swim, display);
 
     FlyBehavior *flyWithWings = malloc(sizeof(FlyWithWings));
     initFlyWithWings(flyWithWings);
-    this->setFlyBehavior(this, flyWithWings);
+    super->setFlyBehavior(super, flyWithWings);
 
     QuackBehavior *quack = malloc(sizeof(Quack));
     initQuack(quack);
-    this->setQuackBehavior(this, quack);
+    super->setQuackBehavior(super, quack);
 }

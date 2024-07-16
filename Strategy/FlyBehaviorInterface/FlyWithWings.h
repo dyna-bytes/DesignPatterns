@@ -3,7 +3,7 @@
 #include "FlyBehaviorInterface/FlyBehavior.h"
 
 typedef struct FlyWithWings {
-    FlyBehavior flyBehavior;
+    FlyBehavior super;
 } FlyWithWings;
 
 void initFlyWithWings(FlyWithWings *self);

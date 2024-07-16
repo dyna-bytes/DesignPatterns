@@ -6,5 +6,5 @@ static void flyNoWay() {
 }
 
 void initFlyNoWay(FlyNoWay *self) {
-    __initFlyBehavior((FlyBehavior *)self, flyNoWay);
+    __initFlyBehavior(&self->super, flyNoWay);
 }

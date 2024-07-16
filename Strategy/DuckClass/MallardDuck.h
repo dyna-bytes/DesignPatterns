@@ -3,7 +3,7 @@
 #include "DuckClass/Duck.h"
 
 typedef struct MallardDuck {
-    Duck duck; // extend
+    Duck super; // extend
 } MallardDuck;
 void initMallardDuck(MallardDuck *self);
 

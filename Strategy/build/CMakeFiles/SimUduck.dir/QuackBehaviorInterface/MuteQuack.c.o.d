@@ -1,5 +1,5 @@
 CMakeFiles/SimUduck.dir/QuackBehaviorInterface/MuteQuack.c.o: \
- /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/MuteQuack.c \
+ /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/MuteQuack.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,5 +23,5 @@ CMakeFiles/SimUduck.dir/QuackBehaviorInterface/MuteQuack.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/MuteQuack.h \
- /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/QuackBehavior.h
+ /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/MuteQuack.h \
+ /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/QuackBehavior.h

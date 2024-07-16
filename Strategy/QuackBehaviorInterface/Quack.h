@@ -3,7 +3,7 @@
 #include "QuackBehaviorInterface/QuackBehavior.h"
 
 typedef struct Quack {
-    QuackBehavior quackBehavior;
+    QuackBehavior super;
 } Quack;
 
 void initQuack(Quack *self);

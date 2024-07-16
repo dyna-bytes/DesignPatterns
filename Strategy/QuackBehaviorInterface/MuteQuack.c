@@ -6,5 +6,5 @@ static void muteQuack() {
 }
 
 void initMuteQuack(MuteQuack *self) {
-    __initQuackBehavior((QuackBehavior *)self, muteQuack);
+    __initQuackBehavior(&self->super, muteQuack);
 }

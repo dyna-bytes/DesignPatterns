@@ -6,5 +6,5 @@ static void quack() {
 }
 
 void initQuack(Quack *self) {
-    __initQuackBehavior((QuackBehavior *)self, quack);
+    __initQuackBehavior(&self->super, quack);
 }
