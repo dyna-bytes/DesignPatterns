@@ -1,0 +1,3 @@
+/home/jetpack/Playground/DesignPatterns/Observer/build/CMakeFiles/ObserverProject.dir
+/home/jetpack/Playground/DesignPatterns/Observer/build/CMakeFiles/edit_cache.dir
+/home/jetpack/Playground/DesignPatterns/Observer/build/CMakeFiles/rebuild_cache.dir

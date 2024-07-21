@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/SimUduck.dir/Common/LinkedList/linkedList.c.o CMakeFiles/SimUduck.dir/WeatherData/weatherData.c.o CMakeFiles/SimUduck.dir/Display/display.c.o CMakeFiles/SimUduck.dir/main.c.o -o SimUduck 
