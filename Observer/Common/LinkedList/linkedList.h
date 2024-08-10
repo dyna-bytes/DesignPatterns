@@ -1,8 +1,6 @@
 #ifndef __LINKEDLIST_H
 #define __LINKEDLIST_H
 
-#define NULL (0)
-
 typedef struct ListNode
 {
 	void *data;

@@ -1,6 +1,6 @@
 # Observer/CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
-project(ObserverProject C)
+project(WeatherStation C)
 
 # 소스 파일 추가
 file(GLOB_RECURSE SOURCES
@@ -14,4 +14,4 @@ file(GLOB_RECURSE SOURCES
 include_directories(${CMAKE_SOURCE_DIR})
 
 # 실행 파일 생성
-add_executable(ObserverProject ${SOURCES})
+add_executable(WeatherStation ${SOURCES})

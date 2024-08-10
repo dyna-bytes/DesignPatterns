@@ -11,12 +11,12 @@ typedef struct CurrentConditionDisplay {
     float humidity;
     WeatherData *weatherData;
 
-    void (*update)(Observer *self, float temp, float humidity, float pressure);
-    void (*display)(struct DisplayElement *self);
-
 } CurrentConditionDisplay;
 
 void initCurrentConditionDisplay(
+    CurrentConditionDisplay *self,
+    WeatherData *weatherData);
+void deinitCurrentConditionDisplay(
     CurrentConditionDisplay *self,
     WeatherData *weatherData);
 #endif

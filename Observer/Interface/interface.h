@@ -7,9 +7,9 @@ typedef struct Observer {
 } Observer;
 
 typedef struct Subject {
-    void (*registerObserver)(struct Subject *self, struct Observer *obs);
+    void* (*registerObserver)(struct Subject *self, struct Observer *obs);
     void (*removeObserver)(struct Subject *self, struct Observer *obs);
-    void (*notifyOberservers)(struct Subject *self);
+    void (*notifyObservers)(struct Subject *self);
 } Subject;
 
 typedef struct DisplayElement {

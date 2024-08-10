@@ -5,8 +5,6 @@
 #include "Interface/interface.h"
 #include "WeatherData/weatherData.h"
 
-extern WeatherData gWeatherData;
-
 int main() {
     WeatherData *weatherData = &gWeatherData;
     CurrentConditionDisplay *currentDisplay =
@@ -21,5 +19,8 @@ int main() {
         82, 70, 29.2);
     weatherData->setMeasurements(weatherData,
         78, 90, 29.2);
+
+    deinitCurrentConditionDisplay(currentDisplay, weatherData);
+    free(currentDisplay);
     return 0;
 }

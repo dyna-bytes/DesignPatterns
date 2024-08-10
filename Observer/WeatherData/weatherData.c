@@ -1,38 +1,51 @@
 #include "WeatherData/weatherData.h"
 #include "Common/common.h"
 
-void registerObserver(WeatherData *self, Observer *obs) {
+void* registerObserver(struct Subject *self, Observer *obs) {
     void *ret;
-    if (!self->observers) {
-        self->observers = list_create(NULL);
-        PRINT_NOTI("Created list head");
+    struct WeatherData *weatherData = container_of(self, struct WeatherData, super);
+
+    if (!weatherData->observers) {
+        weatherData->observers = list_create(NULL);
+        PRINT_NOTI("Created list head [%p]", weatherData->observers);
     }
 
     ListNode *new = list_create(obs);
-    ret = list_insert(self->observers, new);
+    PRINT_NOTI("Created list node [%p] obs [%p]", new, obs);
+
+    ret = list_insert(weatherData->observers, new);
     if (!ret)
         PRINT_ERR("Failed to create new node");
+
+    PRINT_NOTI("Complete");
+    return ret;
 }
 
-void removeObserver(WeatherData *self, Observer *obs) {
-    int ret;
-    ret = list_erase(self->observers, obs);
-    if (!ret)
-        PRINT_ERR("Failed to erase node");
+void removeObserver(struct Subject *self, Observer *obs) {
+    int deleted_num;
+    struct WeatherData *weatherData = container_of(self, struct WeatherData, super);
+
+    deleted_num = list_erase(weatherData->observers, obs);
+    PRINT_NOTI("Erased [%d] list nodes", deleted_num);
+    PRINT_NOTI("Complete");
 }
 
-void notifyObserver(WeatherData *self) {
+void notifyObservers(struct Subject *self) {
+    struct WeatherData *weatherData = container_of(self, struct WeatherData, super);
     ListNode *curr;
     Observer *curr_obs;
-    list_for_each(curr, self->observers) {
+    list_for_each(curr, weatherData->observers) {
         curr_obs = (Observer *)curr->data;
-        curr_obs->update(curr_obs, self->temperature, self->humidity, self->pressure);
+        if (curr_obs == NULL) continue;
+
+        curr_obs->update(curr_obs, weatherData->temperature, weatherData->humidity, weatherData->pressure);
     }
+    PRINT_NOTI("Complete");
 }
 
-void measuremeantsChanged(WeatherData *self) {
+void measurementsChanged(WeatherData *self) {
     Subject *super = &self->super;
-    super->notifyOberservers(super);
+    super->notifyObservers(super);
 }
 
 void setMeasurements(WeatherData *self,
@@ -44,11 +57,11 @@ void setMeasurements(WeatherData *self,
     self->measurementsChanged(self);
 }
 
-WeatherData gWeaterData = {
+WeatherData gWeatherData = {
     .observers = NULL,
-    .registerObserver = registerObserver,
-    .removeObserver = removeObserver,
-    .notifyObserver = notifyObserver,
-    .measurementsChanged = measuremeantsChanged,
+    .super.registerObserver = registerObserver,
+    .super.removeObserver = removeObserver,
+    .super.notifyObservers = notifyObservers,
+    .measurementsChanged = measurementsChanged,
     .setMeasurements = setMeasurements
 };
