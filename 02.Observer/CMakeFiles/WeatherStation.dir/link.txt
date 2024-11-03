@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/WeatherStation.dir/Common/LinkedList/linkedList.c.o CMakeFiles/WeatherStation.dir/Display/display.c.o CMakeFiles/WeatherStation.dir/WeatherData/weatherData.c.o CMakeFiles/WeatherStation.dir/main.c.o -o WeatherStation 
