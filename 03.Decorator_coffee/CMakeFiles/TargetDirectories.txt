@@ -1,0 +1,3 @@
+/home/jetpack/Playground/DesignPatterns/03.Decorator/CMakeFiles/StarbucksCoffee.dir
+/home/jetpack/Playground/DesignPatterns/03.Decorator/CMakeFiles/edit_cache.dir
+/home/jetpack/Playground/DesignPatterns/03.Decorator/CMakeFiles/rebuild_cache.dir
