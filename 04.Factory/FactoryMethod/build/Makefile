@@ -129,6 +129,102 @@ PizzaStore/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/build
 .PHONY : PizzaStore/fast
 
+ChicagoPizzaStore.o: ChicagoPizzaStore.c.o
+.PHONY : ChicagoPizzaStore.o
+
+# target to build an object file
+ChicagoPizzaStore.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/ChicagoPizzaStore.c.o
+.PHONY : ChicagoPizzaStore.c.o
+
+ChicagoPizzaStore.i: ChicagoPizzaStore.c.i
+.PHONY : ChicagoPizzaStore.i
+
+# target to preprocess a source file
+ChicagoPizzaStore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/ChicagoPizzaStore.c.i
+.PHONY : ChicagoPizzaStore.c.i
+
+ChicagoPizzaStore.s: ChicagoPizzaStore.c.s
+.PHONY : ChicagoPizzaStore.s
+
+# target to generate assembly for a file
+ChicagoPizzaStore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/ChicagoPizzaStore.c.s
+.PHONY : ChicagoPizzaStore.c.s
+
+NYPizzaStore.o: NYPizzaStore.c.o
+.PHONY : NYPizzaStore.o
+
+# target to build an object file
+NYPizzaStore.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/NYPizzaStore.c.o
+.PHONY : NYPizzaStore.c.o
+
+NYPizzaStore.i: NYPizzaStore.c.i
+.PHONY : NYPizzaStore.i
+
+# target to preprocess a source file
+NYPizzaStore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/NYPizzaStore.c.i
+.PHONY : NYPizzaStore.c.i
+
+NYPizzaStore.s: NYPizzaStore.c.s
+.PHONY : NYPizzaStore.s
+
+# target to generate assembly for a file
+NYPizzaStore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/NYPizzaStore.c.s
+.PHONY : NYPizzaStore.c.s
+
+linkedList.o: linkedList.c.o
+.PHONY : linkedList.o
+
+# target to build an object file
+linkedList.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/linkedList.c.o
+.PHONY : linkedList.c.o
+
+linkedList.i: linkedList.c.i
+.PHONY : linkedList.i
+
+# target to preprocess a source file
+linkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/linkedList.c.i
+.PHONY : linkedList.c.i
+
+linkedList.s: linkedList.c.s
+.PHONY : linkedList.s
+
+# target to generate assembly for a file
+linkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/linkedList.c.s
+.PHONY : linkedList.c.s
+
+main.o: main.c.o
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaStore.dir/build.make CMakeFiles/PizzaStore.dir/main.c.s
+.PHONY : main.c.s
+
 pizza.o: pizza.c.o
 .PHONY : pizza.o
 
@@ -186,6 +282,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PizzaStore"
+	@echo "... ChicagoPizzaStore.o"
+	@echo "... ChicagoPizzaStore.i"
+	@echo "... ChicagoPizzaStore.s"
+	@echo "... NYPizzaStore.o"
+	@echo "... NYPizzaStore.i"
+	@echo "... NYPizzaStore.s"
+	@echo "... linkedList.o"
+	@echo "... linkedList.i"
+	@echo "... linkedList.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... pizza.o"
 	@echo "... pizza.i"
 	@echo "... pizza.s"

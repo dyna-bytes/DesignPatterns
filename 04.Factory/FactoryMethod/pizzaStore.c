@@ -6,7 +6,7 @@
 struct Pizza *orderPizza(struct PizzaStore *this, const char *type) {
     struct Pizza *pizza = NULL;
 
-    pizza = this->createPizza(type);
+    pizza = __ABSTRACT__ this->createPizza(type);
 
     pizza->prepare(pizza);
     pizza->bake(pizza);
@@ -16,7 +16,9 @@ struct Pizza *orderPizza(struct PizzaStore *this, const char *type) {
 }
 
 void cleanupPizza(struct PizzaStore *this, struct Pizza *pizza) {
-
+    if (pizza->toppings)
+        list_erase(pizza->toppings);
+    free(pizza);
 }
 
 struct PizzaStore *createPizzaStore() {
@@ -28,6 +30,6 @@ struct PizzaStore *createPizzaStore() {
     return store;
 }
 
-void deletePizzaStore(struct PizzaStore *store) {
+void deletePizzaStore(void *store) {
     free(store);
 }

@@ -5,7 +5,11 @@ project(PizzaStore C)
 # 소스 파일 추가
 file(GLOB_RECURSE SOURCES
     "pizza.c",
-    "pizzaStore.c")
+    "pizzaStore.c",
+    "NYPizzaStore.c",
+    "ChicagoPizzaStore.c",
+    "linkedList.c",
+    "main.c")
 
 # 현재 디렉토리를 포함 디렉토리로 설정
 include_directories(${CMAKE_SOURCE_DIR})

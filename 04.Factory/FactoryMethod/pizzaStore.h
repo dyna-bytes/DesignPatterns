@@ -17,6 +17,6 @@ struct ChicagoPizzaStore {
 };
 
 struct PizzaStore *createPizzaStore(void);
-void deletePizzaStore(struct PizzaStore *store);
+void deletePizzaStore(void *store);
 
 #endif
