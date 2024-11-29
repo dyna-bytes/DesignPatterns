@@ -1,0 +1,11 @@
+*.o
+*.d
+*.cmake
+*.make
+*.log
+*.out
+*.internal
+*.bin
+Makefile2
+*cache
+*marks

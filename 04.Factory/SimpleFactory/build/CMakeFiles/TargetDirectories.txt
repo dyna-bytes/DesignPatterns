@@ -1,0 +1,3 @@
+/home/jetpack/Playground/DesignPatterns/04.Factory/SimpleFactory/build/CMakeFiles/PizzaStore.dir
+/home/jetpack/Playground/DesignPatterns/04.Factory/SimpleFactory/build/CMakeFiles/edit_cache.dir
+/home/jetpack/Playground/DesignPatterns/04.Factory/SimpleFactory/build/CMakeFiles/rebuild_cache.dir

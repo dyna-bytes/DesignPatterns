@@ -1,4 +1,4 @@
-# Install script for directory: /home/jetpack/Playground/DesignPatterns/Strategy
+# Install script for directory: /home/jetpack/Playground/DesignPatterns/01.Strategy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jetpack/Playground/DesignPatterns/Strategy/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jetpack/Playground/DesignPatterns/01.Strategy/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

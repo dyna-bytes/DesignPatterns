@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/PizzaStore.dir/pizza.c.o CMakeFiles/PizzaStore.dir/pizzaStore.c.o CMakeFiles/PizzaStore.dir/simplePizzaFactory.c.o -o PizzaStore 

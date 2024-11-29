@@ -1,4 +1,4 @@
-# Observer/CMakeLists.txt
+# 02.Observer/CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 project(WeatherStation C)
 

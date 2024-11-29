@@ -1,6 +1,6 @@
 CMakeFiles/SimUduck.dir/DuckClass/Duck.c.o: \
- /home/jetpack/Playground/DesignPatterns/Strategy/DuckClass/Duck.c \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/DuckClass/Duck.c \
  /usr/include/stdc-predef.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/DuckClass/Duck.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyBehavior.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/QuackBehavior.h
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/DuckClass/Duck.h \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyBehavior.h \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/QuackBehavior.h

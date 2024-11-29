@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/build",
+  "command": "/usr/bin/gcc  -I/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza -g -o CMakeFiles/PizzaMaker.dir/cheese_pizza.c.o -c /home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/cheese_pizza.c",
+  "file": "/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/cheese_pizza.c"
+},
+{
+  "directory": "/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/build",
+  "command": "/usr/bin/gcc  -I/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza -g -o CMakeFiles/PizzaMaker.dir/main.c.o -c /home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/main.c",
+  "file": "/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/main.c"
+},
+{
+  "directory": "/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/build",
+  "command": "/usr/bin/gcc  -I/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza -g -o CMakeFiles/PizzaMaker.dir/pepperoni_pizza.c.o -c /home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/pepperoni_pizza.c",
+  "file": "/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/pepperoni_pizza.c"
+},
+{
+  "directory": "/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/build",
+  "command": "/usr/bin/gcc  -I/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza -g -o CMakeFiles/PizzaMaker.dir/pizza.c.o -c /home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/pizza.c",
+  "file": "/home/jetpack/Playground/DesignPatterns/03.Decorator_pizza/pizza.c"
+}
+]

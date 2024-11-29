@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/PizzaMaker.dir/cheese_pizza.c.o CMakeFiles/PizzaMaker.dir/main.c.o CMakeFiles/PizzaMaker.dir/pepperoni_pizza.c.o CMakeFiles/PizzaMaker.dir/pizza.c.o -o PizzaMaker 

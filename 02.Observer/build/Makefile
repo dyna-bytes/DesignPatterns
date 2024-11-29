@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetpack/Playground/DesignPatterns/Observer
+CMAKE_SOURCE_DIR = /home/jetpack/Playground/DesignPatterns/02.Observer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetpack/Playground/DesignPatterns/Observer/build
+CMAKE_BINARY_DIR = /home/jetpack/Playground/DesignPatterns/02.Observer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetpack/Playground/DesignPatterns/Observer/build/CMakeFiles /home/jetpack/Playground/DesignPatterns/Observer/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetpack/Playground/DesignPatterns/02.Observer/build/CMakeFiles /home/jetpack/Playground/DesignPatterns/02.Observer/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetpack/Playground/DesignPatterns/Observer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetpack/Playground/DesignPatterns/02.Observer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ObserverProject
+# Target rules for targets named WeatherStation
 
 # Build rule for target.
-ObserverProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ObserverProject
-.PHONY : ObserverProject
+WeatherStation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WeatherStation
+.PHONY : WeatherStation
 
 # fast build rule for target.
-ObserverProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/build
-.PHONY : ObserverProject/fast
+WeatherStation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/build
+.PHONY : WeatherStation/fast
 
 Common/LinkedList/linkedList.o: Common/LinkedList/linkedList.c.o
 .PHONY : Common/LinkedList/linkedList.o
 
 # target to build an object file
 Common/LinkedList/linkedList.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/Common/LinkedList/linkedList.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/Common/LinkedList/linkedList.c.o
 .PHONY : Common/LinkedList/linkedList.c.o
 
 Common/LinkedList/linkedList.i: Common/LinkedList/linkedList.c.i
@@ -142,7 +142,7 @@ Common/LinkedList/linkedList.i: Common/LinkedList/linkedList.c.i
 
 # target to preprocess a source file
 Common/LinkedList/linkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/Common/LinkedList/linkedList.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/Common/LinkedList/linkedList.c.i
 .PHONY : Common/LinkedList/linkedList.c.i
 
 Common/LinkedList/linkedList.s: Common/LinkedList/linkedList.c.s
@@ -150,7 +150,7 @@ Common/LinkedList/linkedList.s: Common/LinkedList/linkedList.c.s
 
 # target to generate assembly for a file
 Common/LinkedList/linkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/Common/LinkedList/linkedList.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/Common/LinkedList/linkedList.c.s
 .PHONY : Common/LinkedList/linkedList.c.s
 
 Display/display.o: Display/display.c.o
@@ -158,7 +158,7 @@ Display/display.o: Display/display.c.o
 
 # target to build an object file
 Display/display.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/Display/display.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/Display/display.c.o
 .PHONY : Display/display.c.o
 
 Display/display.i: Display/display.c.i
@@ -166,7 +166,7 @@ Display/display.i: Display/display.c.i
 
 # target to preprocess a source file
 Display/display.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/Display/display.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/Display/display.c.i
 .PHONY : Display/display.c.i
 
 Display/display.s: Display/display.c.s
@@ -174,7 +174,7 @@ Display/display.s: Display/display.c.s
 
 # target to generate assembly for a file
 Display/display.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/Display/display.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/Display/display.c.s
 .PHONY : Display/display.c.s
 
 WeatherData/weatherData.o: WeatherData/weatherData.c.o
@@ -182,7 +182,7 @@ WeatherData/weatherData.o: WeatherData/weatherData.c.o
 
 # target to build an object file
 WeatherData/weatherData.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/WeatherData/weatherData.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/WeatherData/weatherData.c.o
 .PHONY : WeatherData/weatherData.c.o
 
 WeatherData/weatherData.i: WeatherData/weatherData.c.i
@@ -190,7 +190,7 @@ WeatherData/weatherData.i: WeatherData/weatherData.c.i
 
 # target to preprocess a source file
 WeatherData/weatherData.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/WeatherData/weatherData.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/WeatherData/weatherData.c.i
 .PHONY : WeatherData/weatherData.c.i
 
 WeatherData/weatherData.s: WeatherData/weatherData.c.s
@@ -198,7 +198,7 @@ WeatherData/weatherData.s: WeatherData/weatherData.c.s
 
 # target to generate assembly for a file
 WeatherData/weatherData.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/WeatherData/weatherData.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/WeatherData/weatherData.c.s
 .PHONY : WeatherData/weatherData.c.s
 
 main.o: main.c.o
@@ -206,7 +206,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -214,7 +214,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -222,7 +222,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ObserverProject.dir/build.make CMakeFiles/ObserverProject.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WeatherStation.dir/build.make CMakeFiles/WeatherStation.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -233,7 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ObserverProject"
+	@echo "... WeatherStation"
 	@echo "... Common/LinkedList/linkedList.o"
 	@echo "... Common/LinkedList/linkedList.i"
 	@echo "... Common/LinkedList/linkedList.s"

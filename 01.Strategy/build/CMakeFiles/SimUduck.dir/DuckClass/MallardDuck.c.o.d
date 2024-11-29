@@ -1,5 +1,5 @@
 CMakeFiles/SimUduck.dir/DuckClass/MallardDuck.c.o: \
- /home/jetpack/Playground/DesignPatterns/Strategy/DuckClass/MallardDuck.c \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/DuckClass/MallardDuck.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -48,9 +48,9 @@ CMakeFiles/SimUduck.dir/DuckClass/MallardDuck.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/DuckClass/MallardDuck.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/DuckClass/Duck.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyBehavior.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/QuackBehavior.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyWithWings.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/Quack.h
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/DuckClass/MallardDuck.h \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/DuckClass/Duck.h \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyBehavior.h \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/QuackBehavior.h \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyWithWings.h \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/Quack.h

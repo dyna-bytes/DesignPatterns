@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/ObserverProject.dir/Common/LinkedList/linkedList.c.o CMakeFiles/ObserverProject.dir/Display/display.c.o CMakeFiles/ObserverProject.dir/WeatherData/weatherData.c.o CMakeFiles/ObserverProject.dir/main.c.o -o ObserverProject 

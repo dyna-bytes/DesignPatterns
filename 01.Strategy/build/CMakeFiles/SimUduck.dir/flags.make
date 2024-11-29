@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jetpack/Playground/DesignPatterns/Strategy
+C_INCLUDES = -I/home/jetpack/Playground/DesignPatterns/01.Strategy
 
 C_FLAGS = 
 

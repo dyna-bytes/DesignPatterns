@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "duck.h": "c",
+        "mallardduck.h": "c",
+        "quackbehavior.h": "c",
+        "mutequack.h": "c",
+        "flywithwings.h": "c",
+        "compare": "c",
+        "type_traits": "c",
+        "linkedlist.h": "c",
+        "common.h": "c",
+        "weatherdata.h": "c",
+        "interface.h": "c",
+        "condiment_decorator.h": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "pizza.h": "c",
+        "cheese_pizza.h": "c",
+        "pizzastore.h": "c"
+    },
+    "cmake.sourceDirectory": "/home/jetpack/Playground/DesignPatterns/02.Observer",
+    "cmake.configureOnOpen": false
+}

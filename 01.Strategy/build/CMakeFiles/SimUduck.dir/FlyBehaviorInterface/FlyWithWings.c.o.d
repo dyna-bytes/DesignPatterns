@@ -1,5 +1,5 @@
 CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyWithWings.c.o: \
- /home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyWithWings.c \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyWithWings.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -23,5 +23,5 @@ CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyWithWings.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyWithWings.h \
- /home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyBehavior.h
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyWithWings.h \
+ /home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyBehavior.h

@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/WeatherStation.dir/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.o CMakeFiles/WeatherStation.dir/cheese_pizza.c.o CMakeFiles/WeatherStation.dir/main.c.o CMakeFiles/WeatherStation.dir/pepperoni_pizza.c.o CMakeFiles/WeatherStation.dir/pizza.c.o -o WeatherStation 

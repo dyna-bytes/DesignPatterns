@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jetpack/Playground/DesignPatterns/Strategy/DuckClass/Duck.c" "CMakeFiles/SimUduck.dir/DuckClass/Duck.c.o" "gcc" "CMakeFiles/SimUduck.dir/DuckClass/Duck.c.o.d"
-  "/home/jetpack/Playground/DesignPatterns/Strategy/DuckClass/MallardDuck.c" "CMakeFiles/SimUduck.dir/DuckClass/MallardDuck.c.o" "gcc" "CMakeFiles/SimUduck.dir/DuckClass/MallardDuck.c.o.d"
-  "/home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyBehavior.c" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyBehavior.c.o" "gcc" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyBehavior.c.o.d"
-  "/home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyNoWay.c" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyNoWay.c.o" "gcc" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyNoWay.c.o.d"
-  "/home/jetpack/Playground/DesignPatterns/Strategy/FlyBehaviorInterface/FlyWithWings.c" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyWithWings.c.o" "gcc" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyWithWings.c.o.d"
-  "/home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/MuteQuack.c" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/MuteQuack.c.o" "gcc" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/MuteQuack.c.o.d"
-  "/home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/Quack.c" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/Quack.c.o" "gcc" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/Quack.c.o.d"
-  "/home/jetpack/Playground/DesignPatterns/Strategy/QuackBehaviorInterface/QuackBehavior.c" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/QuackBehavior.c.o" "gcc" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/QuackBehavior.c.o.d"
-  "/home/jetpack/Playground/DesignPatterns/Strategy/main.c" "CMakeFiles/SimUduck.dir/main.c.o" "gcc" "CMakeFiles/SimUduck.dir/main.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/DuckClass/Duck.c" "CMakeFiles/SimUduck.dir/DuckClass/Duck.c.o" "gcc" "CMakeFiles/SimUduck.dir/DuckClass/Duck.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/DuckClass/MallardDuck.c" "CMakeFiles/SimUduck.dir/DuckClass/MallardDuck.c.o" "gcc" "CMakeFiles/SimUduck.dir/DuckClass/MallardDuck.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyBehavior.c" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyBehavior.c.o" "gcc" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyBehavior.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyNoWay.c" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyNoWay.c.o" "gcc" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyNoWay.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/FlyBehaviorInterface/FlyWithWings.c" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyWithWings.c.o" "gcc" "CMakeFiles/SimUduck.dir/FlyBehaviorInterface/FlyWithWings.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/MuteQuack.c" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/MuteQuack.c.o" "gcc" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/MuteQuack.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/Quack.c" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/Quack.c.o" "gcc" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/Quack.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/QuackBehaviorInterface/QuackBehavior.c" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/QuackBehavior.c.o" "gcc" "CMakeFiles/SimUduck.dir/QuackBehaviorInterface/QuackBehavior.c.o.d"
+  "/home/jetpack/Playground/DesignPatterns/01.Strategy/main.c" "CMakeFiles/SimUduck.dir/main.c.o" "gcc" "CMakeFiles/SimUduck.dir/main.c.o.d"
   )
 
 # Targets to which this target links.

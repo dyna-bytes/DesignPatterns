@@ -1,3 +1,0 @@
-/home/jetpack/Playground/DesignPatterns/Observer/CMakeFiles/WeatherStation.dir
-/home/jetpack/Playground/DesignPatterns/Observer/CMakeFiles/edit_cache.dir
-/home/jetpack/Playground/DesignPatterns/Observer/CMakeFiles/rebuild_cache.dir
