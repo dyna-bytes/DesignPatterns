@@ -1,3 +1,0 @@
-/home/jetpack/Playground/DesignPatterns/Strategy/CMakeFiles/SimUduck.dir
-/home/jetpack/Playground/DesignPatterns/Strategy/CMakeFiles/edit_cache.dir
-/home/jetpack/Playground/DesignPatterns/Strategy/CMakeFiles/rebuild_cache.dir
